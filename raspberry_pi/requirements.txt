@@ -1,0 +1,24 @@
+# Quadruped Robot - Raspberry Pi Dependencies
+# Install with: pip install -r requirements.txt
+
+# Serial communication with ESP32
+pyserial>=3.5
+
+# Numerical computing for kinematics
+numpy>=1.24.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Image processing utilities
+Pillow>=10.0.0
+
+# Web server for remote control (optional)
+flask>=3.0.0
+flask-socketio>=5.3.0
+
+# For async operations
+asyncio-mqtt>=0.16.0
+
+# Plotting and visualization (for debugging)
+matplotlib>=3.7.0
